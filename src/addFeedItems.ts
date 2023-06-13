@@ -52,6 +52,7 @@ export const addFeedItems = async (
           },
         },
         ],
+    },
     }
 
     const ogpImage = link
