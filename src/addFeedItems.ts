@@ -44,9 +44,6 @@ export const addFeedItems = async (
           },
         ],
       },
-    Name: {
-      type : title,
-      title : [{type : text, text : {content: content},},],},
     }
 
     const ogpImage = link
