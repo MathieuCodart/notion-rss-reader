@@ -44,15 +44,9 @@ export const addFeedItems = async (
           },
         ],
       },
-    'Descritption': {
-      rich_text: [
-        { 
-          text: {
-            content : content,
-          },
-        },
-        ],
-    },
+    Name: {
+      type : title,
+      title : [{type : text, text : {content: content},},],},
     }
 
     const ogpImage = link
