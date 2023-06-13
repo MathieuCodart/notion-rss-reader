@@ -48,7 +48,7 @@ export const addFeedItems = async (
       rich_text: [
         { 
           text: {
-            content : description,
+            content : content,
           },
         },
         ],
